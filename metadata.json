@@ -1,0 +1,6 @@
+{
+  "name": "Flickit Toe Tap Counter",
+  "description": "Computer vision mobile application for real-time football toe tap detection and counting with YOLO Pose.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

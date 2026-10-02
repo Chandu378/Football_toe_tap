@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Ball glow/shadow -->
+    <path
+        android:fillColor="#2238BDF8"
+        android:pathData="M54,54m-28,0a28,28 0,1 1,56 0a28,28 0,1 1,-56 0" />
+    
+    <!-- Outer soccer ball ring -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,54m-22,0a22,22 0,1 1,44 0a22,22 0,1 1,-44 0" />
+        
+    <!-- Center pentagon -->
+    <path
+        android:fillColor="#0F172A"
+        android:pathData="M54,46 L61,51 L58,59 L50,59 L47,51 Z" />
+        
+    <!-- Pentagon seams -->
+    <path
+        android:strokeColor="#0F172A"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:pathData="M54,46 L54,34 M61,51 L71,48 M58,59 L65,69 M50,59 L43,69 M47,51 L37,48" />
+
+    <!-- Dynamic Toe Tap Impact Ripple (Neon Cyan & Lime) -->
+    <path
+        android:strokeColor="#38BDF8"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:pathData="M31,34 C36,27 46,23 54,23" />
+    <path
+        android:strokeColor="#22C55E"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:pathData="M25,44 C27,33 34,26 43,20" />
+    <path
+        android:fillColor="#22C55E"
+        android:pathData="M27,47m-3.5,0a3.5,3.5 0,1 1,7 0a3.5,3.5 0,1 1,-7 0" />
+</vector>

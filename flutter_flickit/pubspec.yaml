@@ -1,0 +1,35 @@
+name: flickit
+description: "Flickit — Real-Time Computer Vision Toe Tap Counter with Ultralytics YOLO Pose"
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Camera preview and stream frames
+  camera: ^0.10.5+9
+
+  # State management and dependency injection
+  provider: ^6.1.2
+
+  # Vector math for distance calculations and bounding boxes
+  vector_math: ^2.1.4
+
+  # Icons
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Assets directory for the provided YOLO Pose model and mock test data
+  assets:
+    - assets/models/
